@@ -6,18 +6,17 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
+          
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
+          I am a dedicated software developer and tester with a strong foundation 
+          in electronics and communication engineering from Velalar College of Engineering and Technology. 
+          Proficient in Java, HTML, CSS, JavaScript, and React, I have hands-on experience in automating 
+          web applications using Selenium to validate functionalities and I have knowledge in manual testing.
           </p>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
+          My educational and project experiences 
+          have equipped me with the technical skills and practical knowledge to contribute effectively to software development and testing teams.
           </p>
         </div>
       </div>

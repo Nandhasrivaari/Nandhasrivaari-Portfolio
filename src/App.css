@@ -16,6 +16,13 @@ h6,
 p {
   margin: 0;
 }
+ .mailsri {
+  color: white; 
+  text-decoration: none; 
+}
+.btn-primary:hover .mailsri {
+  color: black;
+}
 :root {
   --primary: #5e3bee;
   --heading-color: #282938;
@@ -154,7 +161,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 85.333px;
+  padding: 15px 30px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -285,6 +292,11 @@ h2 {
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+.skillimage{
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
 .skills--section--card--content {
   display: flex;
   flex-direction: column;
@@ -378,6 +390,10 @@ h2 {
 .portfolio--section--title {
   color: var(--heading-color);
 }
+.navbarheading{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  margin-right: 0px;
+}
 .portfolio--link {
   text-decoration: none;
   display: flex;
@@ -463,6 +479,17 @@ h2 {
   gap: 10.6px;
   flex: 1 0 0;
   width: 100%;
+  
+}
+
+.phone-input::-webkit-outer-spin-button,
+.phone-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.phone-input {
+  -moz-appearance: textfield; /* Firefox */
 }
 .contact--input {
   display: flex;

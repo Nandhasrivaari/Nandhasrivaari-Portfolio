@@ -9,6 +9,7 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
+        <a href="https://github.com/Nandhasrivaari" style={{textDecoration: 'none'}}>
           <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +27,7 @@ export default function MyPortfolio() {
             </svg>
             Visit My GitHub
           </button>
+          </a>
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -39,7 +41,7 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <p className="text-sm portfolio--link">
+              <a className="text-sm portfolio--link" href={item.livelink}>
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +58,7 @@ export default function MyPortfolio() {
                     stroke-linejoin="round"
                   />
                 </svg>
-              </p>
+              </a>
             </div>
           </div>
         ))}

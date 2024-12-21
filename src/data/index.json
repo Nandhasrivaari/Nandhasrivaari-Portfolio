@@ -2,76 +2,48 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "./img/New.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I specialize in frontend development, creating responsive using HTML, CSS, and JavaScript, with a strong emphasis on the React framework."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/java.png",
+      "title": "Programinng Language",
+      "description": "I develop interactive and responsive applications using core Java, focusing on simplicity, efficiency, and user-friendly designs"
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/qa-icon.png",
+      "title": "Software Testing",
+      "description": "Skilled in Java-based software testing, specializing in both manual and automation testing to ensure application functionality and reliability."
     }
   ],
   "portfolio": [
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Restaurant App",
+      "description": "This vibrant and responsive web application delivers a stunning interface for a food delivery service. Built with React and CSS, it emphasizes modern design and functionality to ensure an intuitive user experience.",
+      "link": "Live Website",
+      "livelink":"https://restaurant-app-nandha.netlify.app/"
+      
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Calculator",
+      "description": "This clean and modern calculator interface showcases my expertise in HTML, CSS, and JavaScript. Designed with a focus on simplicity and usability, it offers a seamless and intuitive user experience.",
+      "link": "Live Website",
+      "livelink":"https://calculator-app-nandha.netlify.app/"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    }
-  ],
-  "testimonial": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
-    },
-    {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "title": "Automatic Room Booking using Java Selenium",
+      "description": "This project demonstrates my expertise in Selenium and Java, automating the room booking process in the Adactin Hotel App. By designing robust test scripts.",
+      "link": "Github Link",
+      "livelink":"https://github.com/Nandhasrivaari/Automatic-Online-Room-Booking-with-Selenium-Java"
     }
   ]
 }
